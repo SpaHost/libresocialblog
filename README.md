@@ -8,7 +8,7 @@ Libre Social Blog is a new blog system what's be smaller, faster and coolest tha
 What you can do
 ---------------
 
-Clone the repo -> `git clone git@bitbucket.org:spahost/libre-social-blog.git`
+Clone the repo -> `git clone git@github.com:SpaHost/libresocialblog.git`
 
 Pull requests with your ideas or fixing a bug, all code are wellcome!
 
@@ -18,7 +18,7 @@ Bug tracker
 
 Have a bug? Please create an issue here on GitHub that conforms with [necolas's guidelines](https://github.com/necolas/issue-guidelines).
 
-https://bitbucket.org/spahost/libre-social-blog/issues?status=new&status=open
+https://github.com/SpaHost/libresocialblog/issues
 
 
 Uses
