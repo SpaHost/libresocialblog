@@ -1,0 +1,92 @@
+h3 code { font-size: 14px; font-weight: normal }
+body > .navbar { font-size: 13px }
+body { background: url('/lb-template/default/img/fond/px_by_Gre3g_@2X.png') repeat; }
+
+.headhr {
+  height: 1px;
+  margin-top: 20px;
+  background-image: -webkit-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.9), rgba(48,10,36,0));
+  background-image:    -moz-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.6), rgba(48,10,36,0));
+  background-image:     -ms-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.6), rgba(48,10,36,0));
+  background-image:      -o-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.6), rgba(48,10,36,0));
+  border: 0
+}
+
+.navbar { z-index: 5000 }
+.navbar-inner { z-index: 5000 }
+.container { -webkit-border-bottom-right-radius: 13px; -webkit-border-bottom-left-radius: 13px; -moz-border-radius-bottomright: 13px; -moz-border-radius-bottomleft: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; }
+
+@media screen and (min-width:768px) {
+	.navbar-fixed-top .brand { float: left; margin-left: 0; padding-left: 10px; padding-right: 10px; }
+    .navbar .brand:hover { text-decoration: none; color: #290e20 }
+	.classic { background-color:#fff; -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); margin-top: -20px; z-index: 9 }
+	.title { margin-top: 150px; margin-left: 160px; line-height: 0px }
+	.social-links { float: right; margin: -45px 5px; z-index: 1115 }
+	 .social-links img { width: 32px }
+	.photo { margin-top:110px; margin-left: 35px; -moz-box-shadow: 0 0 5px #999999; box-shadow: 0 0 5px #999999; border: 4px solid #FFFFFF }
+	.header { margin: 0px 0px 0 20px; bottom: 0; border: 0; height: 150px; background: url(/lb-template/default/img/profile/path.jpg) left center }
+}
+@media screen and (min-width:992px) {
+	body > .navbar .brand { padding-right: 0; padding-left: 0; margin-left: 20px; float: right; font-weight: bold; color: #000; text-shadow: 0 1px 0 rgba(255,255,255,.3), 0 0 30px rgba(255,255,255,.125); -webkit-transition: all .2s linear; -moz-transition: all .2s linear; transition: all .2s linear; }
+    body > .navbar .brand:hover { text-decoration: none; color: #290e20 }
+	.classic { background-color:#fff; -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); margin-top: -20px; z-index: 9 }
+	.title { margin-top: 200px; margin-left: 200px; line-height: 0px }
+	.social-links { float: right; margin: -40px 7px; z-index: 1115 }
+	 .social-links img { width: 48px }
+	.photo { margin-top:140px; margin-left: 40px; -moz-box-shadow: 0 0 5px #999999; box-shadow: 0 0 5px #999999; border: 4px solid #FFFFFF }
+	.header { margin: 40px 0px 0 20px; bottom: 0; border: 0; height: 200px; background: url(/lb-template/default/img/profile/path.jpg) left top }
+}
+@media screen and (min-width:1200px) {
+	body > .navbar .brand { padding-right: 0; padding-left: 0; margin-left: 20px; float: right; font-weight: bold; color: #000; text-shadow: 0 1px 0 rgba(255,255,255,.3), 0 0 30px rgba(255,255,255,.125); -webkit-transition: all .2s linear; -moz-transition: all .2s linear; transition: all .2s linear; }
+    body > .navbar .brand:hover { text-decoration: none; color: #290e20 }
+	.classic { background-color:#fff; -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); margin-top: -10px; z-index: 9 }
+	.title { margin-top: 250px; margin-left: 240px; line-height: 0px }
+	.social-links { float: right; margin: -40px 10px; z-index: 1115 }
+	 .social-links img { width: 64px }
+	.photo { margin-top:180px; margin-left: 50px; -moz-box-shadow: 0 0 5px #999999; box-shadow: 0 0 5px #999999; border: 4px solid #FFFFFF }
+	.header { margin: 40px 0px 0 30px; bottom: 0; border: 0; height: 250px; background: url(/lb-template/default/img/profile/path.jpg) left top }
+}
+
+.classic { margin-bottom: 15px }
+.brand { margin-right: 20px }
+.footer { margin-left: 30px }
+
+article { padding-right: 30px}
+article a { color: #300a24; }
+article a:hover { text-decoration: none; color: #451335; }
+article h2 a { text-decoration: none; color: #300a24; -webkit-transition: all .2s linear; -moz-transition: all .2s linear; transition: all .2s linear;}
+article h2 a:hover { text-decoration: none; color: #451335;}
+article h2 small { margin-left: 10px }
+article h2 small a { color: #dd4814; }
+article h2 small a:hover { color: #888; }
+article p { text-align: justify;}
+article iframe { display: block; margin: 0 auto; border: 5px solid white; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+article img { clear: left; width: 50%; display:block; margin: 15px auto 15px; border: 5px solid white; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+article hr {
+margin: 20px 0;
+height: 1px;
+border: 0;
+background-image: -webkit-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.9), rgba(48,10,36,0));
+background-image:    -moz-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.6), rgba(48,10,36,0));
+background-image:     -ms-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.6), rgba(48,10,36,0));
+background-image:      -o-linear-gradient(left, rgba(48,10,36,0), rgba(48,10,36,.6), rgba(48,10,36,0));
+}
+
+.pagination { margin-right: 30px }
+
+.publicidad { margin: 10px auto 25px; display: block;}
+#disqus_thread { margin-right: 15px;}
+
+blockquote { border-left: 5px solid #300a24; }
+footer { text-align: center; font-size: 12px; font-weight: bold; margin-left: -40px;}
+
+.continuale { margin: -10px 20px -20px; float: right;}
+
+.pie_post { background: #300a24; height: 30px; color: #fff;}
+.pie_post a { background: #300a24; height: 30px; color: #fff;}
+.pie_post a:hover { background: #300a24; height: 30px; color: #888; text-decoration: none;}
+.pie_post .reco  { margin: -5px 0 0 7px; }
+.pie_post .com { margin: 4px 7px;}
+.pie_post .com  h6{ margin: 0 7px;}
+.separador { margin: 30px; }
