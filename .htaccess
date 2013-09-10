@@ -1,0 +1,47 @@
+# Suprimir Etag si esta activo
+Header unset ETag
+FileETag None
+
+# desactiva la firma del servidor
+ServerSignature Off
+
+# limita la carga de archivos a 10mb
+LimitRequestBody 10240000
+
+# desactiva la navegacion de directorios
+Options All -Indexes
+
+# secure htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Protegemos la config
+<Files "config.php">
+Order deny,allow
+Deny From All
+</Files>
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^(.*)\.accesoroot\.es$ [NC]
+RewriteRule ^(.*)$ http://www.accesoroot.es/$1 [L,R=301]
+RewriteRule ^index.html index.php [L,NS]
+
+RewriteRule ^feed index.php?gen=rss [L,NS]
+RewriteRule ^feed/ index.php?gen=rss [L,NS]
+
+RewriteRule ^category/(.*)/(.*)/ index.php?p=category&page=$1 [L,NS]
+RewriteRule ^category/(.*)/(.*) index.php?p=category&page=$1 [L,NS]
+
+RewriteRule ^category/(.*)/ index.php?p=category&page=$1 [L,NS]
+RewriteRule ^category/(.*)/ index.php?p=category&page=$1 [L,NS]
+
+RewriteRule ^post/(.*)/(.*) index.php?p=post&id=$1 [L,NS]
+RewriteRule ^post/(.*) index.php?p=post&id=$1 [L,NS]
+RewriteRule ^page/(.*) index.php?p=page&page=$1 [L,NS]
+RewriteRule ^([0-9]+)/([0-9]+)/([0-9]+)/(.*).html index.php?p=post&oyear=$1&omonth=$2&oday=$3&coment=$4 [L,NS]
+
+# Ya no existe wp-login
+RewriteRule ^wp-login.php index.php [L,NS]

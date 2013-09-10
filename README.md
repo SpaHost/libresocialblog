@@ -21,6 +21,18 @@ Have a bug? Please create an issue here on GitHub that conforms with [necolas's 
 https://github.com/SpaHost/libresocialblog/issues
 
 
+How To?
+-------
+
+Setup your database config in config.php
+
+Upload sql.sql database
+
+Go to : http://www.yourwebsite.com/lb-admin/
+
+User: admin  Password: admin
+
+
 Uses
 ----
 
