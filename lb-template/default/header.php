@@ -56,7 +56,7 @@ echo '
     </div>
     <hr class="headhr">
     <div class="row">
-      <div class="span8" style="padding-left:50px">';
+      <div class="col-md-8" style="padding-left:50px">';
 
 /**
 $fq = new fourSquare("OJIEL1NY5LQHAVBGTT43DOBUML2TQBJEKXDQFJE1XQ3GKVG2");  //fetching the checkins data
@@ -326,7 +326,7 @@ echo '
 
     </div>
 
-    <div class="span3">
+    <div class="col-md-3">
 
 
 <div class="row">
