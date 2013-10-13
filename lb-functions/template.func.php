@@ -40,7 +40,7 @@ if ($set_web == '0') {
 
 **/
 
-  include temp.$template.'/header'.ext;
+  include temp.$lb_template.'/header'.ext;
 }
 
 // Incluir cabecera
