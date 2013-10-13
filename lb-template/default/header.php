@@ -11,27 +11,30 @@ if(!defined('lsb_')) die('No esta permitido acceder a esta pagina.');
 
 // Navbar
 echo '
-  <!-- Navbar
-  ================================================== -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="brand" href="/">',$lb_title,'</a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
-            <li class="active">
-              <a href="/">Inicio</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">',$lb_title,'</a>
     </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="/">Inicio</a>
+        </li>
+      </ul>
+    </nav>
   </div>
+</header>
+<div class="clearfix"></div>
+
+
+
   <div class="container classic">
     <div class="row">
       <div class="header">
