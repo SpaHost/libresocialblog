@@ -67,7 +67,7 @@ function pagination($query, $per_page = 10,$page = 1, $url = '?'){
          
   $pagination = "";
   if($lastpage > 1) {   
-    $pagination .= "<div class='pagination pull-right'><ul>";
+    $pagination .= "<ul class='pagination pull-right'>";
     if ($lastpage < 7 + ($adjacents * 2)) {   
       for ($counter = 1; $counter <= $lastpage; $counter++) {
         if ($counter == $page)
@@ -119,7 +119,7 @@ function pagination($query, $per_page = 10,$page = 1, $url = '?'){
       $pagination.= "<li class='disabled'><a href='#'>Siguiente</a></li>";
       $pagination.= "<li class='disabled'><a href='#'>Ultima</a></li>";
     }
-    $pagination.= "</ul>\n</div>";
+    $pagination.= "</ul>";
   }
   return $pagination;
 }
