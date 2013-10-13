@@ -86,7 +86,7 @@ class autokeyword {
               "tomorrow", "too", "took", "tore", "tought", "toward", "tried", "tries", "trust", "try", "turn", "two", "under", "until", "up", "upon",
               "us", "use", "usual", "various", "verb", "very", "visit", "want", "was", "we", "well", "went", "were", "what", "when", "where", "whether",
               "which", "while", "white", "who", "whom", "whose", "why", "will", "with", "within", "without", "would", "yes", "yet", "you", "young",
-              "your", "br", "img", "p","lt", "gt", "quot", "copy");
+              "your", "br", "img", "p","lt", "gt", "quot", "copy", "os", "hasta");
     
     $s = split(" ", $this->contents);
     $k = array();
