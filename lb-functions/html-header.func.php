@@ -30,7 +30,6 @@ echo '
   <link rel="alternate" type="application/rss+xml" title="',$lb_title,' (RSS 2.0)"" href="http://',$_SERVER["HTTP_HOST"],'/feed" />
   <link rel="shortcut icon" href="http://',$_SERVER["HTTP_HOST"],'/favicon.png" type="image/png" />
   <link rel="stylesheet" media="screen" href="/lb-template/',$lb_template,'/css/bootstrap.min.css" />
-  <link rel="stylesheet" media="screen" href="/lb-template/',$lb_template,'/css/bootstrap-responsive.min.css" />
   <link rel="stylesheet" media="screen" href="/lb-template/',$lb_template,'/css/datepicker.css" />
   <link rel="stylesheet" media="screen" href="/lb-template/',$lb_template,'/css/prettify.css" />
   <link rel="stylesheet" media="screen" href="/lb-template/',$lb_template,'/css/wysihtml5.css" />
