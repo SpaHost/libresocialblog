@@ -20,12 +20,9 @@ body {
     .navbar .nav > li > a { padding: 15px 20px; }
     .navbar .btn-navbar { margin-top: 10px; }
 
-
     /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
-
     /* Carousel base class */
-
 
     .login .container {
       position: relative;
@@ -194,7 +191,7 @@ body {
 }
     echo '
       <div class="row">
-        <div class="span6">
+        <div class="col-md-6">
           <img src="/lb-admin/template/img/logo.png" alt="lsb backgroud">
           <h1>Tu espacio personal</h1>
           <p class="lead">Administra tu blog libre desde aquí.</p>
