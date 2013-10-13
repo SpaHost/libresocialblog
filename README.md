@@ -4,6 +4,7 @@
 Libre Social Blog is a new blog system what's be smaller, faster and coolest than others.
 
 [Live demo](http://www.accesoroot.es/)
+[Live beta](http://beta.accesoroot.es/)
 
 What you can do
 ---------------
