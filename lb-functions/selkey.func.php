@@ -87,7 +87,7 @@ class autokeyword {
               "us", "use", "usual", "various", "verb", "very", "visit", "want", "was", "we", "well", "went", "were", "what", "when", "where", "whether",
               "which", "while", "white", "who", "whom", "whose", "why", "will", "with", "within", "without", "would", "yes", "yet", "you", "young",
               "your", "br", "img", "p","lt", "gt", "quot", "copy", "os", "hasta", "desde", "aqui", "para", "por", "segun", "si", "so", "sobre", "tras",
-              "por", "pues", "http", "según", "puede", "solo", "nuestro", "nuestra", "vamos", "estad", "esta", "estar");
+              "por", "pues", "http", "según", "puede", "solo", "nuestro", "nuestra", "vamos", "estad", "esta", "estar", "&", "&&");
     
     $s = split(" ", $this->contents);
     $k = array();
