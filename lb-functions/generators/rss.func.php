@@ -37,8 +37,8 @@ foreach ($results as $new) {
       <description>'.$news2.'</description>
       <author>noreply@accesoroot.es ('.$auth->display_name.')</author>
       <category>',$cat->title,'</category>
-      <link>http://',$_SERVER["HTTP_HOST"],'/post/'.$new->id.'/'.$url_title.'</link>
-      <guid>http://',$_SERVER["HTTP_HOST"],'/post/'.$new->id.'/'.$url_title.'</guid>
+      <link>http://',$_SERVER["HTTP_HOST"],'/'.$new->oyear.'/'.$new->omonth.'/'.$new->oday.'/'.$url_title.'.html</link>
+      <guid>http://',$_SERVER["HTTP_HOST"],'/'.$new->oyear.'/'.$new->omonth.'/'.$new->oday.'/'.$url_title.'.html</guid>
       <pubDate>'.fecharss($new->ttime).' GMT</pubDate>
     </item>';
   }
