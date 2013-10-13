@@ -196,7 +196,7 @@ body {
           <h1>Tu espacio personal</h1>
           <p class="lead">Administra tu blog libre desde aquí.</p>
         </div>
-        <div class="span6">
+        <div class="col-md-6">
           <form class="form-signin" action="/lb-admin/index.php" method="post">
           <h2 class="form-signin-heading">Identificación</h2>
           <input type="text" class="input-block-level" name="username" id="username" placeholder="Nombre Usuario">
