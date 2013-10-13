@@ -125,7 +125,7 @@ body {
       .container.navbar-wrapper { margin-bottom: 0; width: auto; }
       .navbar-inner { border-radius: 0; margin: -20px 0; }
       .login .container { position: relative; margin-top: 175px }
-      .login-wall { width: auto; height: 400px; }
+      .login-wall { width: auto; height: 400px; min-width: 100%;}
 
     }
 
