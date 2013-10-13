@@ -15,7 +15,7 @@ echo '
 body {
     overflow:hidden;
 }
-    body { padding-bottom: 40px;color: #5a5a5a; }
+    body { padding-bottom: 40px; color: #5a5a5a; }
     .navbar .navbar-inner { border: 0; -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25); -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25); box-shadow: 0 2px 10px rgba(0,0,0,.25); }
     .navbar .nav > li > a { padding: 15px 20px; }
     .navbar .btn-navbar { margin-top: 10px; }
@@ -159,6 +159,7 @@ body {
       }
 
       .login-wall {
+        width: 100%;
         height: 300px;
       }
       .login .container{
