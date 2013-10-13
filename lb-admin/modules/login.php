@@ -125,6 +125,7 @@ body {
       .container.navbar-wrapper { margin-bottom: 0; width: auto; }
       .navbar-inner { border-radius: 0; margin: -20px 0; }
       .login .container { position: relative; margin-top: 175px }
+      .login-wall { width: auto; height: 400px; min-width: 100%;}
 
     }
 
@@ -143,6 +144,10 @@ body {
 
       }
 
+      .login-wall {
+        width: 100%;
+        height: 300px;
+      }
       .login .container{
         width: 65%;
         padding: 0 70px;
