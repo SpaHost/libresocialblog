@@ -11,17 +11,17 @@ if(!defined('lsb_')) die('No esta permitido acceder a esta pagina.');
 
 // Carpeta del programa
 if (function_exists ( 'realpath' ) and @realpath ( dirname ( __FILE__ ) ) !== FALSE) {
-	$c_s = str_replace ( '', '/', realpath ( dirname ( __FILE__ ) ) );
+  $c_s = str_replace ( '', '/', realpath ( dirname ( __FILE__ ) ) );
 }
 
 // Variables de carpetas usuario
 define ( 'ext',		'.' . pathinfo ( __FILE__, PATHINFO_EXTENSION ) );       // Extension
 define ( 'extf',	'.func.' . pathinfo ( __FILE__, PATHINFO_EXTENSION ) );  // Extension de Funcion
-define ( 'basedir',	$c_s . '/' ); // Carpeta root
-define ( 'func',	$c_s . '/lb-functions/' );
-define ( 'temp',	$c_s . '/lb-template/' );
+define ( 'basedir',	$c_s . '/' );                                            // Carpeta root
+define ( 'func',	$c_s . '/lb-functions/' );                               // Carpeta funciones
+define ( 'temp',	$c_s . '/lb-template/' );                                // Carpeta templates
 define ( 'gene',    $c_s . '/lb-functions/generators/' );                    // Carpeta Generadores
-define ( 'apis',    $c_s . '/lb-functions/apis/' );                          // Carpeta Generadores
+define ( 'apis',    $c_s . '/lb-functions/apis/' );                          // Carpeta Apis
 
 // Variables de carpetas administracion
 define ( 'atemp',	$c_s . '/lb-admin/template/' );
