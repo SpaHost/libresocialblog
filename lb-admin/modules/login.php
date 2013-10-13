@@ -35,7 +35,7 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      min-height: 100%;
+      min-width: 100%;
     }
 
 .boton-log {
@@ -122,24 +122,10 @@ body {
 
     @media (max-width: 979px) {
 
-      .container.navbar-wrapper {
-        margin-bottom: 0;
-        width: auto;
-      }
-      .navbar-inner {
-        border-radius: 0;
-        margin: -20px 0;
-      }
-    .login .container {
-      position: relative;
-      margin-top: 175px
-    }
- 
-      .login-wall {
-        width: auto;
-        height: 400px;
-      }
-
+      .container.navbar-wrapper { margin-bottom: 0; width: auto; }
+      .navbar-inner { border-radius: 0; margin: -20px 0; }
+      .login .container { position: relative; margin-top: 175px }
+      .login-wall { width: auto; height: 400px; }
 
     }
 
