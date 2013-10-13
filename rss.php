@@ -1,10 +1,5 @@
 <?php
 header ("Content-type: text/xml");
-//===================================================
-// Custom Gaming CMS v3.2, © 2005-2007, Erik Hillis
-//------------------------------------------------------------------
-// Page Contents: RSS feed for website news
-//===================================================
 
 header ("Content-type: text/xml");
 define('_VALID_INCLUDE', TRUE);
