@@ -20,18 +20,16 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
     <atom:link href="http://',$_SERVER["HTTP_HOST"],'/feed" rel="self" type="application/rss+xml" />
     <copyright>Copyright (C) 2013 ',$_SERVER["HTTP_HOST"],'</copyright>';
 
-
-  $results = $db->get_results("SELECT * FROM lb_news WHERE ttime < $timestamp ORDER BY id DESC LIMIT 0, $lb_limit_rss");
-  foreach ($results as $new) {
-  	$auth = $db->get_row("SELECT * FROM lb_users WHERE id='$new->author'");
-  	$cat = $db->get_row("SELECT * FROM lb_cat WHERE id='$new->category'");
+$results = $db->get_results("SELECT * FROM lb_news WHERE ttime < $timestamp ORDER BY id DESC LIMIT 0, $lb_limit_rss");
+foreach ($results as $new) {
+  $auth = $db->get_row("SELECT * FROM lb_users WHERE id='$new->author'");
+  $cat = $db->get_row("SELECT * FROM lb_cat WHERE id='$new->category'");
   $url_title2 = ucfirst(strtolower(str_replace(" ", "-",$new->title)));
   $url_title = srcc($url_title2);
 
   $news3 = $new->news;
   $news2 = htmlspecialchars($news3, ENT_QUOTES, 'ISO-8859-1');
   $news = str_replace('?', '',$news2);
-
 
   echo '
     <item>
@@ -44,8 +42,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
       <pubDate>'.fecharss($new->ttime).' GMT</pubDate>
     </item>';
   }
-
-
 
 echo '
   </channel>
