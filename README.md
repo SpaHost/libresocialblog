@@ -34,6 +34,7 @@ Go to : http://www.yourwebsite.com/lb-admin/
 
 User: admin  Password: admin
 
+(Installer W.I.P)
 
 Uses
 ----
