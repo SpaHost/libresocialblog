@@ -184,15 +184,18 @@ body {
           <p class="lead">Administra tu blog libre desde aquí.</p>
         </div>
         <div class="col-md-6">
-          <form class="form-signin" action="/lb-admin/index.php" method="post">
-          <h2 class="form-signin-heading">Identificación</h2>
-          <input type="text" class="input-block-level" name="username" id="username" placeholder="Nombre Usuario">
-          <input type="password" class="input-block-level" name="password" id="password" placeholder="Contraseña">
-          <label class="checkbox">
-            <input type="checkbox" value="rememberme"> Recordar sesión
-          </label>
-          <button class="btn btn-large btn-primary pull-right boton-log" type="submit" name="submit" id="login" value="Entrar" >Entrar</button>
-          </form>
+
+      <form class="form-signin" role="form" action="/lb-admin/index.php" method="post">
+        <h2 class="form-signin-heading">Identificación</h2>
+        <input type="text" class="form-control" name="username" id="username" placeholder="Nombre Usuario" required autofocus>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Contraseña" required>
+        <label class="checkbox">
+          <input type="checkbox" value="rememberme"> Recordar sesión
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" id="login" value="Entrar">Entrar</button>
+      </form>
+
+
           <p class="leadi"><a href="/">« Volver a ',$lb_title,'</a></p>
         </div>
       </div><footer><p class="fofoter">Powered by Libre Social Blog ',$ver_web,'<br><a href="">About Us</a> | <a href="">Contact</a> | <a href="">Share it!</a></p></footer>
