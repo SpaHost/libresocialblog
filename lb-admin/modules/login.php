@@ -177,7 +177,7 @@ body {
     echo '
       <div class="row">
         <div class="col-md-7">
-          <img src="/lb-admin/template/img/logo.png" alt="lsb backgroud">
+          <img src="/lb-admin/template/img/logo.png" class="col-md-7" alt="lsb backgroud">
           <h1>Tu espacio personal</h1>
           <p class="lead">Administra tu blog libre desde aquí.</p>
         </div>
