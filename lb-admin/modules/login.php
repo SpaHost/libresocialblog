@@ -176,12 +176,12 @@ body {
 }
     echo '
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-7">
           <img src="/lb-admin/template/img/logo.png" alt="lsb backgroud">
           <h1>Tu espacio personal</h1>
           <p class="lead">Administra tu blog libre desde aquí.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
 
       <form class="form-signin" role="form" action="/lb-admin/index.php" method="post">
         <h2 class="form-signin-heading">Identificación</h2>
