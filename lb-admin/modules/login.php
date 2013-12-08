@@ -54,19 +54,10 @@ body {
         margin: 0 auto 20px;
 }
 
-.fofoter {
-      position: fixed;
-      font-size: 0.75em;
-      color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      text-decoration: none;
-      bottom: 5px;
-      left: 25px;
-}
+.fofoter { position: fixed; font-size: 0.75em; color: #fff; text-shadow: 0 1px 1px rgba(0,0,0,.4); text-decoration: none; bottom: 5px; left: 25px; }
+.fofoter a:hover { text-decoration: none; }
 
-.fofoter a:hover {
-      text-decoration: none;
-    }
+
 .leadi a,
 .leadi a:hover{
       margin: 0;
