@@ -13,7 +13,10 @@ if(!defined('lsb_')) die('No esta permitido acceder a esta pagina.');
 echo '
   <style>
 body {
-    overflow:hidden; padding-bottom: 40px; color: #5a5a5a; }
+    overflow:hidden; padding-bottom: 40px; color: #5a5a5a;
+
+
+    font-size: 13px; line-height: 18px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  }
     .navbar .navbar-inner { border: 0; -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25); -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25); box-shadow: 0 2px 10px rgba(0,0,0,.25); }
     .navbar .nav > li > a { padding: 15px 20px; }
     .navbar .btn-navbar { margin-top: 10px; }
