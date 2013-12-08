@@ -196,7 +196,12 @@ body {
 
           <p class="leadi"><a href="/">« Volver a ',$lb_title,'</a></p>
         </div>
-      </div><footer><p class="fofoter">Powered by Libre Social Blog ',$ver_web,'<br><a href="">About Us</a> | <a href="">Contact</a> | <a href="">Share it!</a></p></footer>
+      </div>
+      <footer>
+        <p class="fofoter"><i>Powered by Libre Social Blog ',$ver_web,'<br>
+        <a href="">About Us</a> | <a href="">Contact</a> | <a href="">Share it!</a></i></p>
+      </footer>
+
     </div>
 
   </div>
