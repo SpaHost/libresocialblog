@@ -5,7 +5,7 @@
         "font-styles": function(locale) {
             return "<li class='dropdown'>" +
               "<a class='btn dropdown-toggle' data-toggle='dropdown' href='#'>" +
-              "<i class='icon-font'></i>&nbsp;<span class='current-font'>" + locale.font_styles.normal + "</span>&nbsp;<b class='caret'></b>" +
+              "<i class='icon-font'></i>&nbsp;<span class='current-font'>" + locale.font_styles.normal + "</span>&nbsp;<b class='glyphicon glyphicon-caret'></b>" +
               "</a>" +
               "<ul class='dropdown-menu'>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='div'>" + locale.font_styles.normal + "</a></li>" +
@@ -29,10 +29,10 @@
         "lists": function(locale) {
             return "<li>" +
               "<div class='btn-group'>" +
-                "<a class='btn' data-wysihtml5-command='insertUnorderedList' title='" + locale.lists.unordered + "'><i class='icon-list'></i></a>" +
-                "<a class='btn' data-wysihtml5-command='insertOrderedList' title='" + locale.lists.ordered + "'><i class='icon-list'></i></a>" +
-                "<a class='btn' data-wysihtml5-command='Outdent' title='" + locale.lists.outdent + "'><i class='icon-indent-right'></i></a>" +
-                "<a class='btn' data-wysihtml5-command='Indent' title='" + locale.lists.indent + "'><i class='icon-indent-left'></i></a>" +
+                "<a class='btn' data-wysihtml5-command='insertUnorderedList' title='" + locale.lists.unordered + "'><i class='glyphicon glyphicon-list'></i></a>" +
+                "<a class='btn' data-wysihtml5-command='insertOrderedList' title='" + locale.lists.ordered + "'><i class='glyphicon glyphicon-list'></i></a>" +
+                "<a class='btn' data-wysihtml5-command='Outdent' title='" + locale.lists.outdent + "'><i class='glyphicon glyphicon-indent-right'></i></a>" +
+                "<a class='btn' data-wysihtml5-command='Indent' title='" + locale.lists.indent + "'><i class='glyphicon glyphicon-indent-left'></i></a>" +
               "</div>" +
             "</li>";
         },
