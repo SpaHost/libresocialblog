@@ -5,7 +5,7 @@
         "font-styles": function(locale) {
             return "<li class='dropdown'>" +
               "<a class='btn dropdown-toggle' data-toggle='dropdown' href='#'>" +
-              "<i class='icon-font'></i>&nbsp;<span class='current-font'>" + locale.font_styles.normal + "</span>&nbsp;<b class='glyphicon glyphicon-caret'></b>" +
+              "<i class='glyphicon glyphicon-font'></i>&nbsp;<span class='current-font'>" + locale.font_styles.normal + "</span>&nbsp;<b class='glyphicon glyphicon-caret'></b>" +
               "</a>" +
               "<ul class='dropdown-menu'>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='div'>" + locale.font_styles.normal + "</a></li>" +
@@ -52,7 +52,7 @@
                   "<a href='#' class='btn btn-primary' data-dismiss='modal'>" + locale.link.insert + "</a>" +
                 "</div>" +
               "</div>" +
-              "<a class='btn' data-wysihtml5-command='createLink' title='" + locale.link.insert + "'><i class='icon-share'></i></a>" +
+              "<a class='btn' data-wysihtml5-command='createLink' title='" + locale.link.insert + "'><i class='glyphicon glyphicon-share'></i></a>" +
             "</li>";
         },
 
@@ -71,14 +71,14 @@
                   "<a href='#' class='btn btn-primary' data-dismiss='modal'>" + locale.image.insert + "</a>" +
                 "</div>" +
               "</div>" +
-              "<a class='btn' data-wysihtml5-command='insertImage' title='" + locale.image.insert + "'><i class='icon-picture'></i></a>" +
+              "<a class='btn' data-wysihtml5-command='insertImage' title='" + locale.image.insert + "'><i class='glyphicon glyphicon-picture'></i></a>" +
             "</li>";
         },
 
         "html": function(locale) {
             return "<li>" +
               "<div class='btn-group'>" +
-                "<a class='btn' data-wysihtml5-action='change_view' title='" + locale.html.edit + "'><i class='icon-pencil'></i></a>" +
+                "<a class='btn' data-wysihtml5-action='change_view' title='" + locale.html.edit + "'><i class='glyphicon glyphicon-pencil'></i></a>" +
               "</div>" +
             "</li>";
         },
@@ -86,7 +86,7 @@
         "color": function(locale) {
             return "<li class='dropdown'>" +
               "<a class='btn dropdown-toggle' data-toggle='dropdown' href='#'>" +
-                "<span></span><i class='icon-tint'></i>&nbsp;<b class='caret'></b>" +
+                "<span></span><i class='glyphicon glyphicon-tint'></i>&nbsp;<b class='glyphicon glyphicon-caret'></b>" +
               "</a>" +
               "<ul class='dropdown-menu'>" +
                 "<li><div class='wysihtml5-colors' data-wysihtml5-command-value='black'></div><a class='wysihtml5-colors-title' data-wysihtml5-command='foreColor' data-wysihtml5-command-value='black'>" + locale.colours.black + "</a></li>" +
