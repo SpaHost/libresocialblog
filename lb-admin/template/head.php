@@ -188,8 +188,8 @@ echo '
   <div class="subnav subnav-fixed">
     <div class="container">
       <ul class="nav nav-pills">
-        <li class="active"><a href="/lb-admin/index.php?p=home"><i class="icon-home">h</i> Principal</a></li>
-        <li class="active"><a href="/lb-admin/index.php?p=news"><i class="icon-home">x</i> Noticias</a></li>
+        <li class="active"><a href="/lb-admin/index.php?p=home"><i class="glyphicon glyphicon-home">h</i> Principal</a></li>
+        <li class="active"><a href="/lb-admin/index.php?p=news"><i class="glyphicon glyphicon-home">x</i> Noticias</a></li>
       </ul>
     </div>
   </div>
