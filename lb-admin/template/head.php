@@ -130,11 +130,6 @@ echo '
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
-        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
         <a class="brand" href="/lb-admin/">',$lb_title,'</a><a class="brand" style="margin:3px 0 -5px -35px; font-size:0.8em" href="/">Ver sitio...</a>
         <div class="nav-collapse collapse">
           <ul class="nav hidden-tablet hidden-desktop">
